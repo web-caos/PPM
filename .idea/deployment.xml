@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="Webcaos">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="Webcaos" uploadOnCheckin="dfa32728-db87-4971-b644-f373d028ba51">
     <serverData>
       <paths name="Webcaos">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="Webcaos" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>
