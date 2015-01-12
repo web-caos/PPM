@@ -26,7 +26,6 @@ class CreateProductsTable extends Migration {
             $table->decimal('GrossPrice4', 15, 2);
             $table->integer('AvailableQty');
             $table->decimal('Shipping', 15, 2);
-            $table->string('NextAction');
             $table->string('AmazonStatus');
             $table->string('eBayStatus');
             $table->timestamps();
