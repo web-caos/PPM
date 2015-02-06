@@ -15,8 +15,7 @@ class CreateItemsTable extends Migration {
 		Schema::create('items', function($table)
 		{
 			$table->increments('id');
-			$table->string('AmazonOrderId');
-			$table->string('ASIN');
+			$table->string('OrderId');
 			$table->string('SellerSKU');
 			$table->string('Description');
 			$table->string('QuantityOrdered');

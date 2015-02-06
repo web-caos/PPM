@@ -24,10 +24,18 @@ class CreateProductsTable extends Migration {
             $table->decimal('GrossPrice2', 15, 2);
             $table->decimal('GrossPrice3', 15, 2);
             $table->decimal('GrossPrice4', 15, 2);
+            $table->integer('NetWeight');
+            $table->integer('NetSizeX');
+            $table->integer('NetSizeY');
+            $table->integer('NetSizeZ');
             $table->integer('AvailableQty');
             $table->decimal('Shipping', 15, 2);
+            $table->string('ShopStatus');
+            $table->string('MarketplacesStatus');
             $table->string('AmazonStatus');
             $table->string('eBayStatus');
+            $table->string('ePriceStatus');
+            $table->string('PixManiaStatus');
             $table->timestamps();
         });
 	}

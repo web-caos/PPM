@@ -15,7 +15,8 @@ class CreateOrdersTable extends Migration {
 		Schema::create('orders', function($table)
 		{
 			$table->increments('id');
-			$table->string('AmazonOrderId');
+			$table->string('Marketplace');
+			$table->string('OrderId');
 			$table->string('PurchaseDate');
 			$table->string('OrderStatus');
 			$table->longText('ShippingAddress');

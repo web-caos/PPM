@@ -29,7 +29,7 @@ XML;
                     $document->addChild( 'Number', $order->id );
                     $document->addChild( 'Numbering', '/AMZ' );
                     $document->addChild( 'PricesIncludeVat', 'true' );
-                    $document->addChild( 'InternalComment', 'Rif. Ordine Amazon ' . $order->AmazonOrderId );
+                    $document->addChild( 'InternalComment', 'Rif. Ordine Amazon ' . $order->OrderId );
 
                     $total = json_decode($order->OrderTotal);
 
